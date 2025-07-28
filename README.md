@@ -560,6 +560,6 @@ It prepares Airbnb market data for use in stakeholder presentations, BI dashboar
 ---
 
 **Mikhail Ivanov**  
-[LinkedIn](https://www.linkedin.com/in/mvivanov494) · [GitHub](https://github.com/badburrito24/PortfolioProjects)
+(832) 738-8240 ▪ mishaivanov494@yahoo.com ▪ 16065 Dayton Ave N, Shoreline, WA, 98133, King County ▪ [LinkedIn](https://www.linkedin.com/in/mvivanov494) ▪ [GitHub](https://github.com/badburrito24/PortfolioProjects) 
 
 
