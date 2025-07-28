@@ -21,18 +21,10 @@ B.S., Mathematics with a Minor in Economics | The University of Houston (August 
 
 ## Projects
 ### Personal Project, Nashville Housing Data Cleaning, Analysis, and Visualization
-• Cleaned, transformed, and analyzed over 56,000 rows of housing data using SQL, with prior data preparation in Excel using
-Find & Replace (Ctrl+H), =PROPER(), Flash Fill, and Advanced Filters to standardize date types, fill NULLs, and ensure
-smooth CSV import.
-• Built an automated SQL data pipeline that included LOAD DATA INFILE, NULL handling, and string parsing functions
-(SUBSTRING_INDEX, TRIM, LEFT, INSTR, REVERSE) to normalize address and ownership fields for analysis.
-• Applied CTEs and ROW_NUMBER() window functions to remove duplicates based on property details and categorized
-building/land values using CASE logic.
-• Developed and published an interactive Tableau dashboard that visualized housing distributions by construction year,
-land/building value ranges, and location, enabling stakeholders to assess market trends and property characteristics
 
 Tableau Dashboard Link:
 <https://shorturl.at/NhTgX>
+
 ![nashville dashboard]("/assets/image/NHD_Tableau_Dashboard.png")
 
 Nashville Housing Data Cleaning & Visualization Project This project showcases a complete end-to-end data cleaning, transformation, analysis, and visualization workflow using SQL, Excel, and Tableau, centered around real estate property data from Nashville, Tennessee. It highlights key data analysis skills including ETL processes, data quality management, and dashboard development.
