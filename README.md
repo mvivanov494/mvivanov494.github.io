@@ -28,7 +28,7 @@ B.S., Mathematics with a Minor in Economics | The University of Houston (August 
 •	Conducted deficiency and failure analysis on over 40 server connections, requiring precise attention to detail.
 
 ## Projects
-### Personal Project, Nashville Housing Data Cleaning, Analysis, and Visualization
+## Personal Project, Nashville Housing Data Cleaning, Analysis, and Visualization
 
 #### Tableau Dashboard Link:
 <https://shorturl.at/NhTgX>
@@ -224,7 +224,7 @@ ORDER BY full_baths;
 This project simulates a real-world data cleaning and reporting workflow that a business analyst or data analyst would perform to prepare property data for stakeholder analysis, reporting, or integration into BI tools.
 
 
-### Personal Project, COVID-19 Data Analysis and Dashboard Development
+## Personal Project, COVID-19 Data Analysis and Dashboard Development
 
 #### Covid data between 2020-02-24 to 2021-04-30: 
 <https://ourworldindata.org/covid-deaths>
@@ -482,7 +482,7 @@ ORDER BY HighestDeathCount DESC;
 
 This project showcases practical data exploration methods used in health and crisis analytics. By using SQL to analyze real-world COVID-19 data, it simulates the responsibilities of a data analyst investigating trends in large, multi-dimensional public health datasets.
 
-### 📊 Seattle Airbnb Data Cleaning & Visualization Project
+## Personal Project, Seattle Airbnb Data Cleaning & Visualization Project
 
 ### 🔗 Tableau Dashboard:
 [Seattle Airbnb Tableau Dashboard](https://shorturl.at/SS0bl)
