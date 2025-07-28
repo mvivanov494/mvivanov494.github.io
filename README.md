@@ -76,6 +76,8 @@ Visual analytics and interactive dashboard publishing in Tableau
 
 Outcome This project simulates a real-world data cleaning and reporting workflow that a business analyst or data analyst would perform to prepare property data for stakeholder analysis, reporting, or integration into BI tools.
 
+https://github.com/mvivanov494/PortfolioProjects/blob/2cb5784cc27ae8dcfef6e6902fc8efe2e0a19d3f/Nashville%20Housing%20Data%20Project/NHD_Queries.sql#L118-L128
+
 ### Personal Project, COVID-19 Data Analysis and Dashboard Development
 • Built a complete SQL-based data pipeline to analyze global COVID-19 trends, death rates, and vaccination rollouts using
 cleaned and structured government datasets.
