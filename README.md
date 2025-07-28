@@ -3,7 +3,6 @@
 #### Technical Skills: 
 Microsoft Excel (Advanced, Pivot Tables, Pivot Charts, V/X/HLOOKUP, VBA, Data Cleaning, Conditional Formatting), C++ (Basics), Python (Intermediate, Pandas, Numpy, scikit, Matplotlib), R Studio (Advanced, ggplot, Regression Analysis, Statistical Modeling, Data Visualization), MATLAB (Basics), SQL (Intermediate, Joins, CTEs, Temp Tables, Aggregate Functions, Views), Tableau (Intermediate, Interactive Dashboards, Filters/Slicers, Parameters, Calculated Fields, Data Blending, Trend Lines), PowerBI, Japanese Language (Advanced), Vietnamese Language (Intermediate Level), English Language (Native)
 
-
 ## Education		        		
 B.S., Mathematics with a Minor in Economics | The University of Houston (August 2021 - May 2025)
 
@@ -76,7 +75,19 @@ Visual analytics and interactive dashboard publishing in Tableau
 
 Outcome This project simulates a real-world data cleaning and reporting workflow that a business analyst or data analyst would perform to prepare property data for stakeholder analysis, reporting, or integration into BI tools.
 
-https://github.com/mvivanov494/PortfolioProjects/blob/2cb5784cc27ae8dcfef6e6902fc8efe2e0a19d3f/Nashville%20Housing%20Data%20Project/NHD_Queries.sql#L118-L128
+```
+ALTER TABLE nashville_housing_data
+ADD address_trimmed TEXT;
+
+UPDATE nashville_housing_data
+SET address_trimmed = TRIM(SUBSTRING(property_address, 1, LENGTH(property_address) - LOCATE(' ', REVERSE(property_address)))) ;
+
+ALTER TABLE nashville_housing_data
+ADD city TEXT;
+
+UPDATE nashville_housing_data
+SET city = TRIM(SUBSTRING_INDEX(property_address, ' ', -1));
+```
 
 ### Personal Project, COVID-19 Data Analysis and Dashboard Development
 • Built a complete SQL-based data pipeline to analyze global COVID-19 trends, death rates, and vaccination rollouts using
