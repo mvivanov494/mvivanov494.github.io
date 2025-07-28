@@ -1,9 +1,6 @@
 title: Mikhail Ivanov
 logo: /assets/image/businessphoto.jpg
-#description: text below image
+description: | (832) 738 - 8240 16065 Dayton Ave N, Shoreline, WA, 98133, King County
+  [LinkedIn](https://www.linkedin.com/in/mvivanov494) · [GitHub](https://github.com/mvivanov494/PortfolioProjects) · 📧 mishaivanov494@yahoo.com
 # show_downloads: true
 theme: jekyll-theme-minimal
-
-markdown: kramdown
-sass:
-  style: compressed
