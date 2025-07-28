@@ -487,6 +487,8 @@ This project showcases practical data exploration methods used in health and cri
 ### 🔗 Tableau Dashboard:
 [Seattle Airbnb Tableau Dashboard](https://shorturl.at/SS0bl)
 
+![Seattle Airbnb Tableau Dashboard](/assets/image/Seattle_Airbnb_Data_Dashboard.png)
+
 ### 📁 Dataset Source: 
 [Inside Airbnb - Seattle Listings](https://insideairbnb.com/get-the-data/)
 
