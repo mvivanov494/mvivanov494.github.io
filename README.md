@@ -30,14 +30,14 @@ Microsoft Excel (Advanced, Pivot Tables, Pivot Charts, V/X/HLOOKUP, VBA, Data Cl
 ## Projects
 ### Personal Project, Nashville Housing Data Cleaning, Analysis, and Visualization
 
-Tableau Dashboard Link:
+#### Tableau Dashboard Link:
 <https://shorturl.at/NhTgX>
 
 ![nashville dashboard](/assets/image/NHD_Tableau_Dashboard.png)
 
 This project showcases a complete end-to-end data cleaning, transformation, analysis, and visualization workflow using SQL, Excel, and Tableau, centered around real estate property data from Nashville, Tennessee. It highlights key data analysis skills including ETL processes, data quality management, and dashboard development.
 
-### Tools Used 
+### Tools Used:
 
 - MySQL – For importing, cleaning, and analyzing structured data using advanced SQL
 
@@ -49,7 +49,7 @@ This project showcases a complete end-to-end data cleaning, transformation, anal
 
 - Project Overview Imported a raw dataset of 56,000+ rows using LOAD DATA INFILE in MySQL
 
-### Code
+### Code:
 
 - Standardized and split full address fields into street, city, and state using string functions like SUBSTRING_INDEX, LEFT, and LOCATE
   
@@ -225,77 +225,69 @@ This project simulates a real-world data cleaning and reporting workflow that a 
 
 
 ### Personal Project, COVID-19 Data Analysis and Dashboard Development
-• Built a complete SQL-based data pipeline to analyze global COVID-19 trends, death rates, and vaccination rollouts using
-cleaned and structured government datasets.
-• Performed advanced data cleaning on 170,000+ rows in Excel using helper columns, IF statements, VLOOKUP, and
-keyboard shortcuts to identify and fill NULL values, standardize date formats, and enforce data type consistency for seamless
-SQL import.
-• Used CTEs, temp tables, joins, and aggregate functions to calculate per-country infection rates, daily deaths, and
-vaccination percentages, and optimized queries for dashboard readiness.
-• Designed and published a dynamic Tableau dashboard to visualize key metrics like death rates, infections per population,
-and vaccine rollout across continents.
 
-Covid data from: https://ourworldindata.org/covid-deaths between 2020-02-24 to 2021-04-30 from all countries 85,000+ entries per CSV file **Tableau Dashboard Link: ** https://public.tableau.com/app/profile/mikhail.ivanov8682/viz/CovidDataDashboard_17517669300950/Dashboard1
+Covid data between 2020-02-24 to 2021-04-30: <https://ourworldindata.org/covid-deaths>
+**Tableau Dashboard Link:** <https://shorturl.at/YBznK> 
 
 🦠 COVID-19 Global Data Exploration & Analysis This project demonstrates full-cycle data exploration using SQL to analyze and uncover insights from global COVID-19 datasets. It highlights core analyst skills including data cleaning, joins, CTEs, window functions, aggregate analysis, and performance optimization using temporary tables and views.
 
-🔧 Tools Used MySQL – For data import, cleaning, and in-depth querying
+🔧 ### Tools Used: 
 
-CSV Files – Raw COVID-19 death and vaccination datasets
+- MySQL – For data import, cleaning, and in-depth querying
 
-Windows File System – Used LOAD DATA INFILE to bring data into MySQL from local CSVs
+- CSV Files – Raw COVID-19 death and vaccination datasets
 
-Git/GitHub – For source control and project sharing
+- Windows File System – Used LOAD DATA INFILE to bring data into MySQL from local CSVs
 
-📁 Project Overview Imported and normalized large-scale COVID-19 datasets into SQL using LOAD DATA INFILE with NULLIF() handling
+- Git/GitHub – For source control and project sharing
 
-Created clean, relational tables for COVID deaths and vaccinations globally
+- Tableau
 
-Performed advanced SQL analysis to compute infection and death percentages, population-level vaccination rates, and temporal insights
+📁 ### Project Overview:
 
-Applied joins, CTEs, temporary tables, and views to structure reusable and modular analytics queries
+- Imported and normalized large-scale COVID-19 datasets into SQL using LOAD DATA INFILE with NULLIF() handling
 
-Segmented analysis by country, continent, and date for trend breakdowns
+- Created clean, relational tables for COVID deaths and vaccinations globally
 
-Created views to simplify repeated access to key KPIs, including highest infection rate, rolling vaccination percentage, and global death rates
+- Performed advanced SQL analysis to compute infection and death percentages, population-level vaccination rates, and temporal insights
 
-🧠 Key SQL Concepts Demonstrated Data Cleaning: Using NULLIF() to handle missing entries on load
+- Applied joins, CTEs, temporary tables, and views to structure reusable and modular analytics queries
 
-Data Joins: Merged vaccination and death datasets on location and date
+- Segmented analysis by country, continent, and date for trend breakdowns
 
-Window Functions: Used SUM() OVER (PARTITION BY ...) for cumulative vaccination counts
+- Created views to simplify repeated access to key KPIs, including highest infection rate, rolling vaccination percentage, and global death rates
 
-CTEs: Structured complex logic like percent vaccinated by population
+🧠 ### Key SQL Concepts Demonstrated:
 
-Temporary Tables: Stored intermediate rolling results for analysis and visualization
+- Data Cleaning: Using NULLIF() to handle missing entries on load
 
-Views: Persisted KPIs like highest death rates, infection rates, and vaccination coverage
+- Data Joins: Merged vaccination and death datasets on location and date
 
-Aggregate Functions: Calculated total cases, deaths, infection % by population, and death rates
+- Window Functions: Used SUM() OVER (PARTITION BY ...) for cumulative vaccination counts
 
-CASE Statements: Used for readable output formatting and filtering logic
+- CTEs: Structured complex logic like percent vaccinated by population
 
-🔍 Example Analysis Conducted Likelihood of death per infection in the U.S.
+- Temporary Tables: Stored intermediate rolling results for analysis and visualization
 
-Infection penetration (% of population infected) by country
+- Views: Persisted KPIs like highest death rates, infection rates, and vaccination coverage
 
-Rolling vaccination trends using window functions
+- Aggregate Functions: Calculated total cases, deaths, infection % by population, and death rates
 
-Global case fatality rate across all countries
+- CASE Statements: Used for readable output formatting and filtering logic
 
-Top countries by infection and death rates (absolute and per capita)
+🧮 ### Views Created:
 
-Most affected continents by cumulative death totals
+- percentpopulationvaccinated – Cumulative vaccinations by country
 
-🧮 Views Created percentpopulationvaccinated – Cumulative vaccinations by country
+- highestinfectionrate – Countries with highest % of population infected
 
-highestinfectionrate – Countries with highest % of population infected
+- highestdeathcount – Countries with highest death counts
 
-highestdeathcount – Countries with highest death counts
+- highestdeathcountbycontinent – Continent-level death tallies
 
-highestdeathcountbycontinent – Continent-level death tallies
+- worlddeathpercentage – Global fatality ratio based on reported cases and deaths
 
-worlddeathpercentage – Global fatality ratio based on reported cases and deaths
+🧾 ### Outcome: 
 
-🧾 Outcome This project showcases practical data exploration methods used in health and crisis analytics. By using SQL to analyze real-world COVID-19 data, it simulates the responsibilities of a data analyst investigating trends in large, multi-dimensional public health datasets.
+This project showcases practical data exploration methods used in health and crisis analytics. By using SQL to analyze real-world COVID-19 data, it simulates the responsibilities of a data analyst investigating trends in large, multi-dimensional public health datasets.
 
