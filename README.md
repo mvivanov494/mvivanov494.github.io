@@ -213,7 +213,9 @@ ORDER BY full_baths;
 
 - Excel techniques for NULL handling and formatting (Ctrl+H, filters, keyboard shortcuts)
 
-###Outcome: This project simulates a real-world data cleaning and reporting workflow that a business analyst or data analyst would perform to prepare property data for stakeholder analysis, reporting, or integration into BI tools.
+### Outcome: 
+
+This project simulates a real-world data cleaning and reporting workflow that a business analyst or data analyst would perform to prepare property data for stakeholder analysis, reporting, or integration into BI tools.
 
 
 ### Personal Project, COVID-19 Data Analysis and Dashboard Development
