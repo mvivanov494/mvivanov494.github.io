@@ -1,6 +1,6 @@
-# Data Scientist
+## Data Scientist
 
-#### Technical Skills: 
+### Technical Skills: 
 Microsoft Excel (Advanced, Pivot Tables, Pivot Charts, V/X/HLOOKUP, VBA, Data Cleaning, Conditional Formatting), C++ (Basics), Python (Intermediate, Pandas, Numpy, scikit, Matplotlib), R Studio (Advanced, ggplot, Regression Analysis, Statistical Modeling, Data Visualization), MATLAB (Basics), SQL (Intermediate, Joins, CTEs, Temp Tables, Aggregate Functions, Views), Tableau (Intermediate, Interactive Dashboards, Filters/Slicers, Parameters, Calculated Fields, Data Blending, Trend Lines), PowerBI, Japanese Language (Advanced), Vietnamese Language (Intermediate Level), English Language (Native)
 
 ## Education		        		
@@ -29,19 +29,21 @@ Tableau Dashboard Link:
 
 Nashville Housing Data Cleaning & Visualization Project This project showcases a complete end-to-end data cleaning, transformation, analysis, and visualization workflow using SQL, Excel, and Tableau, centered around real estate property data from Nashville, Tennessee. It highlights key data analysis skills including ETL processes, data quality management, and dashboard development.
 
-Tools Used 
+### Tools Used 
 
--MySQL – For importing, cleaning, and analyzing structured data using advanced SQL
+- MySQL – For importing, cleaning, and analyzing structured data using advanced SQL
 
--Excel – For initial cleaning, formatting, and handling nulls and duplicates
+- Excel – For initial cleaning, formatting, and handling nulls and duplicates
 
--Tableau – For interactive data visualization and dashboard design
+- Tableau – For interactive data visualization and dashboard design
 
--Git/GitHub – For version control and project documentation
+- Git/GitHub – For version control and project documentation
 
--Project Overview Imported a raw dataset of 56,000+ rows using LOAD DATA INFILE in MySQL
+- Project Overview Imported a raw dataset of 56,000+ rows using LOAD DATA INFILE in MySQL
 
-Standardized and split full address fields into street, city, and state using string functions like SUBSTRING_INDEX, LEFT, and LOCATE
+### Code
+
+- Standardized and split full address fields into street, city, and state using string functions like SUBSTRING_INDEX, LEFT, and LOCATE
 ```sql
 ALTER TABLE nashville_housing_data
 ADD address_trimmed TEXT;
@@ -56,7 +58,7 @@ UPDATE nashville_housing_data
 SET city = TRIM(SUBSTRING_INDEX(property_address, ' ', -1));
 ```
 
-Replaced missing or blank values using NULLIF, IFNULL, and manual preprocessing in Excel
+- Replaced missing or blank values using NULLIF, IFNULL, and manual preprocessing in Excel
 ```sql
 LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Data\\datacleaningportfolioproject\\NHD.csv' INTO TABLE nashville_housing_data
 FIELDS TERMINATED BY ','
@@ -92,7 +94,7 @@ SET
   half_baths       = NULLIF(@half_baths, '0');
 ```
 
-Removed duplicate rows using Common Table Expressions (CTEs) with ROW_NUMBER() OVER (PARTITION BY ...)
+- Removed duplicate rows using Common Table Expressions (CTEs) with ROW_NUMBER() OVER (PARTITION BY ...)
 ```sql
 -- Removing duplicates with a CTE
 WITH RowNumCTE AS(
@@ -113,7 +115,7 @@ DELETE FROM nashville_housing_data
 WHERE unique_id IN (SELECT unique_id FROM RowNumCTE WHERE row_num > 1);
 ```
 
-Converted categorical flags such as ‘Y’ and ‘N’ to readable formats like ‘Yes’ and ‘No’
+- Converted categorical flags such as ‘Y’ and ‘N’ to readable formats like ‘Yes’ and ‘No’
 ```sql
 -- Change Y and N to Yes and No in "Sold as Vacant' field
 SELECT DISTINCT(sold_as_vacant), COUNT(sold_as_vacant)
@@ -135,7 +137,7 @@ SET sold_as_vacant = 	CASE WHEN sold_as_vacant = 'Y' THEN 'Yes'
 		 END;
 ```
 
-Created new categorized columns for building and land value ranges using CASE statements
+- Created new categorized columns for building and land value ranges using CASE statements
 ```sql
 -- Looking counts of homes in each bracket of building values
 SELECT
@@ -198,7 +200,7 @@ GROUP BY building_value_range, sort_order
 ORDER BY sort_order;
 ```
 
-Aggregated and grouped home counts by bedrooms, bathrooms, year built, and price tiers
+- Aggregated and grouped home counts by bedrooms, bathrooms, year built, and price tiers
 ```sql
 -- Pie charts
 -- Looking at the percentage of houses built in each year in Nashville
@@ -228,23 +230,19 @@ GROUP BY full_baths
 ORDER BY full_baths;
 ```
 
-Deleted irrelevant columns after transformation to finalize the dataset
+- Deleted irrelevant columns after transformation to finalize the dataset
 
-Built a Tableau dashboard to visualize metrics such as construction year distribution, bedroom counts, building value tiers, land usage, and notable high/low-value properties
+- Built a Tableau dashboard to visualize metrics such as construction year distribution, bedroom counts, building value tiers, land usage, and notable high/low-value properties
 
-Key Concepts Demonstrated Data wrangling with SQL (CTEs, joins, aggregates, string manipulation)
+- Key Concepts Demonstrated Data wrangling with SQL (CTEs, joins, aggregates, string manipulation)
 
-Data pipeline setup from raw CSV to structured, queryable tables
+- Data pipeline setup from raw CSV to structured, queryable tables
 
-Value binning using CASE for price brackets
+- Value binning using CASE for price brackets
 
-Dimensional modeling through address field decomposition
+- Excel techniques for NULL handling and formatting (Ctrl+H, filters, keyboard shortcuts)
 
-Excel techniques for NULL handling and formatting (Ctrl+H, filters, keyboard shortcuts)
-
-Visual analytics and interactive dashboard publishing in Tableau
-
-Outcome This project simulates a real-world data cleaning and reporting workflow that a business analyst or data analyst would perform to prepare property data for stakeholder analysis, reporting, or integration into BI tools.
+###Outcome: This project simulates a real-world data cleaning and reporting workflow that a business analyst or data analyst would perform to prepare property data for stakeholder analysis, reporting, or integration into BI tools.
 
 
 ### Personal Project, COVID-19 Data Analysis and Dashboard Development
