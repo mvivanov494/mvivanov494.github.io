@@ -229,9 +229,9 @@ This project simulates a real-world data cleaning and reporting workflow that a 
 Covid data between 2020-02-24 to 2021-04-30: <https://ourworldindata.org/covid-deaths>
 **Tableau Dashboard Link:** <https://shorturl.at/YBznK> 
 
-🦠 COVID-19 Global Data Exploration & Analysis This project demonstrates full-cycle data exploration using SQL to analyze and uncover insights from global COVID-19 datasets. It highlights core analyst skills including data cleaning, joins, CTEs, window functions, aggregate analysis, and performance optimization using temporary tables and views.
+COVID-19 Global Data Exploration & Analysis This project demonstrates full-cycle data exploration using SQL to analyze and uncover insights from global COVID-19 datasets. It highlights core analyst skills including data cleaning, joins, CTEs, window functions, aggregate analysis, and performance optimization using temporary tables and views. 🦠
 
-🔧 ### Tools Used: 
+### 🔧 Tools Used: 
 
 - MySQL – For data import, cleaning, and in-depth querying
 
@@ -243,7 +243,7 @@ Covid data between 2020-02-24 to 2021-04-30: <https://ourworldindata.org/covid-d
 
 - Tableau
 
-📁 ### Project Overview:
+### 📁 Project Overview:
 
 - Imported and normalized large-scale COVID-19 datasets into SQL using LOAD DATA INFILE with NULLIF() handling
 
@@ -257,7 +257,7 @@ Covid data between 2020-02-24 to 2021-04-30: <https://ourworldindata.org/covid-d
 
 - Created views to simplify repeated access to key KPIs, including highest infection rate, rolling vaccination percentage, and global death rates
 
-🧠 ### Key SQL Concepts Demonstrated:
+### 🧠 Key SQL Concepts Demonstrated:
 
 - Data Cleaning: Using NULLIF() to handle missing entries on load
 
@@ -275,7 +275,7 @@ Covid data between 2020-02-24 to 2021-04-30: <https://ourworldindata.org/covid-d
 
 - CASE Statements: Used for readable output formatting and filtering logic
 
-🧮 ### Views Created:
+### 🧮 Views Created:
 
 - percentpopulationvaccinated – Cumulative vaccinations by country
 
@@ -287,7 +287,7 @@ Covid data between 2020-02-24 to 2021-04-30: <https://ourworldindata.org/covid-d
 
 - worlddeathpercentage – Global fatality ratio based on reported cases and deaths
 
-🧾 ### Outcome: 
+### 🧾 Outcome: 
 
 This project showcases practical data exploration methods used in health and crisis analytics. By using SQL to analyze real-world COVID-19 data, it simulates the responsibilities of a data analyst investigating trends in large, multi-dimensional public health datasets.
 
