@@ -33,8 +33,7 @@ land/building value ranges, and location, enabling stakeholders to assess market
 
 Tableau Dashboard Link:
 <https://shorturl.at/NhTgX>
-![nashville dashboard]
-("/assets/img/")
+![nashville dashboard]("/assets/image/NHD_Tableau_Dashboard.png")
 
 Nashville Housing Data Cleaning & Visualization Project This project showcases a complete end-to-end data cleaning, transformation, analysis, and visualization workflow using SQL, Excel, and Tableau, centered around real estate property data from Nashville, Tennessee. It highlights key data analysis skills including ETL processes, data quality management, and dashboard development.
 
