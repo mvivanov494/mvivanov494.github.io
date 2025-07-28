@@ -3,8 +3,8 @@
 ### Technical Skills: 
 Microsoft Excel (Advanced, Pivot Tables, Pivot Charts, V/X/HLOOKUP, VBA, Data Cleaning, Conditional Formatting), C++ (Basics), Python (Intermediate, Pandas, Numpy, scikit, Matplotlib), R Studio (Advanced, ggplot, Regression Analysis, Statistical Modeling, Data Visualization), MATLAB (Basics), SQL (Intermediate, Joins, CTEs, Temp Tables, Aggregate Functions, Views), Tableau (Intermediate, Interactive Dashboards, Filters/Slicers, Parameters, Calculated Fields, Data Blending, Trend Lines), PowerBI, Japanese Language (Advanced), Vietnamese Language (Intermediate Level), English Language (Native)
 
-## Education		        		
-- B.S., Mathematics with a Minor in Economics | The University of Houston (August 2021 - May 2025)
+## Education	
+B.S., Mathematics with a Minor in Economics | The University of Houston (August 2021 - May 2025)
 
 ## Work Experience
 **Independent Data Analyst (April 2025 - Present)**
