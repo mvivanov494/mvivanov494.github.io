@@ -7,8 +7,8 @@ Microsoft Excel (Advanced, Pivot Tables, Pivot Charts, V/X/HLOOKUP, VBA, Data Cl
 
 ## Education	
 ---
-
 B.S., Mathematics with a Minor in Economics | The University of Houston (August 2021 - May 2025)
+
 
 
 ## Work Experience
