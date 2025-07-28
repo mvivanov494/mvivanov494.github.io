@@ -500,13 +500,13 @@ This project showcases practical data exploration methods used in health and cri
 
 ## Personal Project, Seattle Airbnb Data Cleaning & Visualization Project
 
+### 📁 Dataset Source: 
+[Inside Airbnb - Seattle Listings](https://insideairbnb.com/get-the-data/)
+
 ### 🔗 Tableau Dashboard:
 [Seattle Airbnb Tableau Dashboard](https://shorturl.at/SS0bl)
 
 ![Seattle Airbnb Tableau Dashboard](/assets/image/Seattle_Airbnb_Data_Dashboard.png)
-
-### 📁 Dataset Source: 
-[Inside Airbnb - Seattle Listings](https://insideairbnb.com/get-the-data/)
 
 This project demonstrates a full data analytics pipeline—from raw data ingestion to dashboard visualization—using Airbnb property data from Seattle. It simulates the tasks a data or business analyst might perform to deliver actionable insights for stakeholders exploring short-term rental investments or business strategies.
 
