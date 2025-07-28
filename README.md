@@ -8,12 +8,14 @@ B.S., Mathematics with a Minor in Economics | The University of Houston (August 
 
 ## Work Experience
 **Independent Data Analyst (April 2025 - Present_)**
+
 • Assisted on a Fiverr project to develop a machine learning model predicting S&P 500 price movement.
 • Helped preprocess historical price and macroeconomic data using Yahoo Finance and the FRED API.
 • Explored sentiment analysis with VADER and contributed to integrating sample Twitter-like data.
 • Observed the use of technical indicators (SMA, RSI, MACD) and Random Forest modeling for predictions
 
 **Telecommunications Technician @ Ronek Communications (April 2020 - June 2023)**
+
 •	Reviewed job sites and installed telecommunication equipment in data centers for major corporations
 •	Improved workflow by 30%, daily terminating 30+ Cat6 ethernet cables and tested their connection to a server 
 •	Gained hands-on experience working with complex network systems, developing a foundation in data flow, systems architecture, and troubleshooting—skills applicable to large-scale data environments.
@@ -27,7 +29,7 @@ Tableau Dashboard Link:
 
 ![nashville dashboard](/assets/image/NHD_Tableau_Dashboard.png)
 
-Nashville Housing Data Cleaning & Visualization Project This project showcases a complete end-to-end data cleaning, transformation, analysis, and visualization workflow using SQL, Excel, and Tableau, centered around real estate property data from Nashville, Tennessee. It highlights key data analysis skills including ETL processes, data quality management, and dashboard development.
+This project showcases a complete end-to-end data cleaning, transformation, analysis, and visualization workflow using SQL, Excel, and Tableau, centered around real estate property data from Nashville, Tennessee. It highlights key data analysis skills including ETL processes, data quality management, and dashboard development.
 
 ### Tools Used 
 
@@ -59,43 +61,8 @@ UPDATE nashville_housing_data
 SET city = TRIM(SUBSTRING_INDEX(property_address, ' ', -1));
 ```
 
-- Replaced missing or blank values using NULLIF, IFNULL, and manual preprocessing in Excel
-```sql
-LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Data\\datacleaningportfolioproject\\NHD.csv' INTO TABLE nashville_housing_data
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n'
-IGNORE 1 LINES
-(
-@unique_id, @parcel_id, @land_use, @property_address,
-@sale_date, @sale_price, @legal_reference, @sold_as_vacant,
-@owner_name, @owner_address, @acreage, @tax_distinct,
-@land_value, @building_value, @total_value, @year_built,
-@bedrooms, @full_baths, @half_baths
-)
-SET
-  unique_id        = NULLIF(@unique_id, ''),
-  parcel_id        = NULLIF(@parcel_id, ''),
-  land_use         = NULLIF(@land_use, ''),
-  property_address = NULLIF(@property_address, ''),
-  sale_date        = NULLIF(@sale_date, ''),
-  sale_price       = NULLIF(@sale_price, '0'),
-  legal_reference  = NULLIF(@legal_reference, ''),
-  sold_as_vacant   = NULLIF(@sold_as_vacant, ''),
-  owner_name       = NULLIF(@owner_name, ''),
-  owner_address    = NULLIF(@owner_address, ''),
-  acreage          = NULLIF(@acreage, '0'),
-  tax_distinct     = NULLIF(@tax_distinct, ''),
-  land_value       = NULLIF(@land_value, '0'),
-  building_value   = NULLIF(@building_value, '0'),
-  total_value      = NULLIF(@total_value, '0'),
-  year_built       = NULLIF(@year_built, '0'),
-  bedrooms         = NULLIF(@bedrooms, '0'),
-  full_baths       = NULLIF(@full_baths, '0'),
-  half_baths       = NULLIF(@half_baths, '0');
-```
-
 - Removed duplicate rows using Common Table Expressions (CTEs) with ROW_NUMBER() OVER (PARTITION BY ...)
+  
 ```sql
 -- Removing duplicates with a CTE
 WITH RowNumCTE AS(
@@ -117,6 +84,7 @@ WHERE unique_id IN (SELECT unique_id FROM RowNumCTE WHERE row_num > 1);
 ```
 
 - Converted categorical flags such as ‘Y’ and ‘N’ to readable formats like ‘Yes’ and ‘No’
+  
 ```sql
 -- Change Y and N to Yes and No in "Sold as Vacant' field
 SELECT DISTINCT(sold_as_vacant), COUNT(sold_as_vacant)
@@ -139,6 +107,7 @@ SET sold_as_vacant = 	CASE WHEN sold_as_vacant = 'Y' THEN 'Yes'
 ```
 
 - Created new categorized columns for building and land value ranges using CASE statements
+  
 ```sql
 -- Looking counts of homes in each bracket of building values
 SELECT
@@ -202,6 +171,7 @@ ORDER BY sort_order;
 ```
 
 - Aggregated and grouped home counts by bedrooms, bathrooms, year built, and price tiers
+  
 ```sql
 -- Pie charts
 -- Looking at the percentage of houses built in each year in Nashville
