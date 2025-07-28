@@ -25,7 +25,7 @@ B.S., Mathematics with a Minor in Economics | The University of Houston (August 
 Tableau Dashboard Link:
 <https://shorturl.at/NhTgX>
 
-![nashville dashboard]("/assets/image/NHD_Tableau_Dashboard.png")
+![nashville dashboard](/assets/image/NHD_Tableau_Dashboard.png)
 
 Nashville Housing Data Cleaning & Visualization Project This project showcases a complete end-to-end data cleaning, transformation, analysis, and visualization workflow using SQL, Excel, and Tableau, centered around real estate property data from Nashville, Tennessee. It highlights key data analysis skills including ETL processes, data quality management, and dashboard development.
 
@@ -44,6 +44,7 @@ Nashville Housing Data Cleaning & Visualization Project This project showcases a
 ### Code
 
 - Standardized and split full address fields into street, city, and state using string functions like SUBSTRING_INDEX, LEFT, and LOCATE
+  
 ```sql
 ALTER TABLE nashville_housing_data
 ADD address_trimmed TEXT;
