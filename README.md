@@ -75,7 +75,7 @@ Visual analytics and interactive dashboard publishing in Tableau
 
 Outcome This project simulates a real-world data cleaning and reporting workflow that a business analyst or data analyst would perform to prepare property data for stakeholder analysis, reporting, or integration into BI tools.
 
-```
+```sql
 ALTER TABLE nashville_housing_data
 ADD address_trimmed TEXT;
 
