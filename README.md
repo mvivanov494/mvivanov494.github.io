@@ -6,9 +6,13 @@
 Microsoft Excel (Advanced, Pivot Tables, Pivot Charts, V/X/HLOOKUP, VBA, Data Cleaning, Conditional Formatting), C++ (Basics), Python (Intermediate, Pandas, Numpy, scikit, Matplotlib), R Studio (Advanced, ggplot, Regression Analysis, Statistical Modeling, Data Visualization), MATLAB (Basics), SQL (Intermediate, Joins, CTEs, Temp Tables, Aggregate Functions, Views), Tableau (Intermediate, Interactive Dashboards, Filters/Slicers, Parameters, Calculated Fields, Data Blending, Trend Lines), PowerBI, Japanese Language (Advanced), Vietnamese Language (Intermediate Level), English Language (Native)
 
 ## Education	
+---
+
 B.S., Mathematics with a Minor in Economics | The University of Houston (August 2021 - May 2025)
 
 ## Work Experience
+---
+
 **Independent Data Analyst (April 2025 - Present)**
 
 • Assisted on a Fiverr project to develop a machine learning model predicting S&P 500 price movement.
@@ -30,6 +34,8 @@ B.S., Mathematics with a Minor in Economics | The University of Houston (August 
 •	Conducted deficiency and failure analysis on over 40 server connections, requiring precise attention to detail.
 
 ## Projects
+---
+
 ## Personal Project, Nashville Housing Data Cleaning, Analysis, and Visualization
 
 #### Tableau Dashboard Link:
@@ -40,6 +46,7 @@ B.S., Mathematics with a Minor in Economics | The University of Houston (August 
 This project showcases a complete end-to-end data cleaning, transformation, analysis, and visualization workflow using SQL, Excel, and Tableau, centered around real estate property data from Nashville, Tennessee. It highlights key data analysis skills including ETL processes, data quality management, and dashboard development.
 
 ### Tools Used:
+---
 
 - MySQL – For importing, cleaning, and analyzing structured data using advanced SQL
 
@@ -52,6 +59,7 @@ This project showcases a complete end-to-end data cleaning, transformation, anal
 - Project Overview Imported a raw dataset of 56,000+ rows using LOAD DATA INFILE in MySQL
 
 ### Code:
+---
 
 - Standardized and split full address fields into street, city, and state using string functions like SUBSTRING_INDEX, LEFT, and LOCATE
   
@@ -222,6 +230,7 @@ ORDER BY full_baths;
 - Excel techniques for NULL handling and formatting (Ctrl+H, filters, keyboard shortcuts)
 
 ### Outcome: 
+---
 
 This project simulates a real-world data cleaning and reporting workflow that a business analyst or data analyst would perform to prepare property data for stakeholder analysis, reporting, or integration into BI tools.
 
@@ -238,7 +247,8 @@ This project simulates a real-world data cleaning and reporting workflow that a 
 
 This project demonstrates full-cycle data exploration using SQL to analyze and uncover insights from global COVID-19 datasets. It highlights core analyst skills including data cleaning, joins, CTEs, window functions, aggregate analysis, and performance optimization using temporary tables and views. 🦠
 
-### 🔧 Tools Used: 
+### 🔧 Tools Used:
+---
 
 - MySQL – For data import, cleaning, and in-depth querying
 
@@ -251,6 +261,7 @@ This project demonstrates full-cycle data exploration using SQL to analyze and u
 - Tableau
 
 ### 📁 Project Overview:
+---
 
 - Imported and normalized large-scale COVID-19 datasets into SQL using LOAD DATA INFILE with NULLIF() handling
 
@@ -451,6 +462,7 @@ ORDER BY HighestDeathCount DESC;
 ```
 
 ### 🧠 Key SQL Concepts Demonstrated:
+---
 
 - Data Cleaning: Using NULLIF() to handle missing entries on load
 
@@ -469,6 +481,7 @@ ORDER BY HighestDeathCount DESC;
 - CASE Statements: Used for readable output formatting and filtering logic
 
 ### 🧮 Views Created:
+---
 
 - percentpopulationvaccinated – Cumulative vaccinations by country
 
@@ -481,6 +494,7 @@ ORDER BY HighestDeathCount DESC;
 - worlddeathpercentage – Global fatality ratio based on reported cases and deaths
 
 ### 🧾 Outcome: 
+---
 
 This project showcases practical data exploration methods used in health and crisis analytics. By using SQL to analyze real-world COVID-19 data, it simulates the responsibilities of a data analyst investigating trends in large, multi-dimensional public health datasets.
 
@@ -494,31 +508,24 @@ This project showcases practical data exploration methods used in health and cri
 ### 📁 Dataset Source: 
 [Inside Airbnb - Seattle Listings](https://insideairbnb.com/get-the-data/)
 
----
-
-### 🧹 Project Summary:
-
 This project demonstrates a full data analytics pipeline—from raw data ingestion to dashboard visualization—using Airbnb property data from Seattle. It simulates the tasks a data or business analyst might perform to deliver actionable insights for stakeholders exploring short-term rental investments or business strategies.
 
----
-
 ### 🛠 Tools & Technologies Used:
+---
 
 - **Excel** – Deduplication, formatting, NULL handling  
 - **Tableau** – Building interactive dashboards and visualizing key metrics  
 - **Git/GitHub** – Version control, documentation, and project hosting  
 
----
-
 ### 📌 Project Workflow:
+---
 
 - Cleaned raw data using `IFNULL`, `NULLIF`, and Excel preprocessing  
 - Removed irrelevant and unused columns post-transformation  
 - Built a KPI-focused dashboard with filters and interactive visuals in Tableau  
 
----
-
 ### 📈 Key Findings:
+---
 
 - **Average Guests (Accommodates):** 1.68  
 - **Average Security Deposit:** $287.09  
@@ -527,9 +534,8 @@ This project demonstrates a full data analytics pipeline—from raw data ingesti
 - **Peak Rental Season:** Late May through winter holidays  
 - **Most Common Listings:** Private rooms dominate due to affordability and demand
 
----
-
 ### 💡 Use Case: 
+---
 
 This project can inform decisions on:
 
@@ -539,9 +545,8 @@ This project can inform decisions on:
 - Budgeting for cleaning fees and security deposits  
 - Understanding seasonal rental behavior (e.g., renting out during peak season, living in during off-season)
 
----
-
 ### 📤 Outcome:
+---
 
 This end-to-end project demonstrates real-world analytics skills in:
 
@@ -551,9 +556,8 @@ This end-to-end project demonstrates real-world analytics skills in:
 
 It prepares Airbnb market data for use in stakeholder presentations, BI dashboards, predictive modeling, or profitability tools.
 
----
-
 ## 📫 Contact
+---
 
 **Mikhail Ivanov**  
 [LinkedIn](https://www.linkedin.com/in/mvivanov494) · [GitHub](https://github.com/badburrito24/PortfolioProjects)
