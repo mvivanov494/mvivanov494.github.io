@@ -31,7 +31,8 @@ building/land values using CASE logic.
 • Developed and published an interactive Tableau dashboard that visualized housing distributions by construction year,
 land/building value ranges, and location, enabling stakeholders to assess market trends and property characteristics
 
-[Tableau Dashboard Link] (https://public.tableau.com/app/profile/mikhail.ivanov8682/viz/NashvilleHousingDataDashboard_17525406633940/Dashboard1)
+[Tableau Dashboard Link] 
+(https://public.tableau.com/app/profile/mikhail.ivanov8682/viz/NashvilleHousingDataDashboard_17525406633940/Dashboard1)
 
 Nashville Housing Data Cleaning & Visualization Project This project showcases a complete end-to-end data cleaning, transformation, analysis, and visualization workflow using SQL, Excel, and Tableau, centered around real estate property data from Nashville, Tennessee. It highlights key data analysis skills including ETL processes, data quality management, and dashboard development.
 
